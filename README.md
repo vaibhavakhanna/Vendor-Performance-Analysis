@@ -23,5 +23,6 @@ TECH STACK
     Hypothesis Testing
 
 SCREENSHOT OF THE DASHBOARD 
-  Link - 
+  Link - https://github.com/vaibhavakhanna/Vendor-Performance-Analysis/blob/main/Snapshot%20of%20Dashboard.png
+  
     
