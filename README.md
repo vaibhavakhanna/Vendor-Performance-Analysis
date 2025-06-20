@@ -1,29 +1,51 @@
-# Vendor-Performance Analysis Dashboard 
- A dynamic, interactive data visualization built to explore underperforming brands, top vendors, key business impacts, and profitability variance.
+# Vendor Performance Analysis Dashboard
 
-1. DESCRIPTION
+A dynamic and interactive Power BI dashboard designed to explore underperforming brands, top vendors, key business drivers, and profitability variance.
 
-The Vendor Performance Dashboard is a visually engaging and analystical Power BI report designed to resolve business issues after exploring several Excel fines containing more than 1 lac rows
-Effective inventory and sales management are critical for optimizing profitability in the retail and wholesale industry. Companies need to ensure that they are not incurring losses due to inefficient pricing, poor inventory turnover, or vendor dependency. The goal of this analysis is to: 
-    1. Identify underperforming brands that require promotional or pricing adjustments. 
-    2. Determine top vendors contributing to sales and gross profit. 
-    3. Analyze the impact of bulk purchasing on unit costs. 
-    4. Assess inventory turnover to reduce holding costs and improve efficiency. 
-    5. Investigate the profitability variance between high-performing and low-performing vendors. 
+---
 
-3. TECH STACK 
- 
-  The dashboard is build using the following tools and technologies : 
-    1. Power BI Desktop - Main visualization tool used for report creation.
-    2. Jupyter Notebook - for EDA, using Python and SQLite
-    3. Database created to store downloaded csv files 
-    4. Logging - to record every executed events 
-    5. EDA(Exploratory Data Analysis) - to understand the data and created summary table for analysis, containing - purchase         transactions made by vendors, sales, transaction data, freight cost of each vendor, actual product prices
-    6. Python libraries used - Seaborn, Matplotlib, Pandas, Numpy
-    formed optimised queries to preserve time 
-    7. Hypothesis Testing
+## 📌 Project Overview
 
-4. SCREENSHOT OF THE DASHBOARD 
-      Link - ![Alt text]https://github.com/vaibhavakhanna/Vendor-Performance-Analysis/blob/main/Snapshot%20of%20Dashboard.png
-  
-    
+The **Vendor Performance Dashboard** is a visually engaging and analytical Power BI report developed to address key business challenges. The analysis was conducted on multiple Excel files containing over 1,00,00,000 rows of data.
+
+Effective inventory and sales management are essential for maximizing profitability in the retail and wholesale sectors. This project helps businesses ensure they are not losing revenue due to inefficient pricing strategies, slow inventory turnover, or over-reliance on specific vendors.
+
+### ✅ Key Objectives:
+- **Identify** underperforming brands that may need promotional or pricing adjustments.
+- **Determine** top-performing vendors contributing significantly to sales and gross profit.
+- **Analyze** the impact of bulk purchasing on unit costs.
+- **Assess** inventory turnover rates to reduce holding costs and improve operational efficiency.
+- **Investigate** profitability variance between high-performing and low-performing vendors.
+
+---
+
+## ⚙️ Tech Stack & Tools
+
+- **Power BI Desktop**: Dashboard creation and data visualization.
+- **Jupyter Notebook**: Data exploration and cleaning using Python.
+- **SQLite Database**: Storage of transformed CSV data for efficient querying.
+- **Python Logging**: Tracking and recording key execution steps.
+- **Python Libraries**:
+  - `Pandas`
+  - `NumPy`
+  - `Matplotlib`
+  - `Seaborn`
+- **Exploratory Data Analysis (EDA)**:
+  - Created summary tables for purchase transactions, sales data, freight costs per vendor, and actual product prices.
+- **Optimized SQL Queries**: Formulated efficient queries to save processing time.
+- **Hypothesis Testing**: Applied statistical methods to validate business assumptions.
+
+---
+
+## 📊 Dashboard Snapshot
+
+![Vendor Performance Dashboard](https://github.com/vaibhavakhanna/Vendor-Performance-Analysis/blob/main/Snapshot%20of%20Dashboard.png)
+
+---
+
+## 🚀 Key Highlights
+
+- Processed large datasets efficiently using Python and SQLite.
+- Created comprehensive summary tables combining purchase, sales, freight, and pricing data.
+- Built a visually intuitive Power BI dashboard for quick, actionable insights.
+- Utilized hypothesis testing to support data-driven decisions.
